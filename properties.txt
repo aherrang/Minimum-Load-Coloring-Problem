@@ -1,0 +1,15 @@
+# Algorithm parameters
+  NI = 1           # Number of Islands
+  NM = 1           # Number of Algorithms in each Island
+
+# Meta-heuristic parameters
+  MC = greedy2     # Construction: random, equal, balanced, greedy1, greedy2
+  AG = 0.50        # Alpha coefficient controlling the greediness: 0-purely random, 1-purely greedy
+  ME = exc_fi      # Exploration: exc, ins
+  MS = gvns        # Search: grasp, vnd, bvns, gvns
+  MU = 0           # Multi-start: no (0), yes (1)
+  VD = 4           # Exploration sequence of LS's in VND
+
+# VNS specific parameters
+  SK = 1           # Shake procedure  for VNS (Basic or General)
+  BT = 0.10        # Beta coefficient for VNS (Basic or General)
